@@ -1,0 +1,250 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;0,900;1,400&display=swap&subset=cyrillic-ext");
+
+@font-face {
+  font-family: "Marta";
+  src: url("../fonts/Marta.woff2") format("woff2"),
+    url("../fonts/Marta.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Marta";
+  src: url("../fonts/Marta-Bold.woff2") format("woff2"),
+    url("../fonts/Marta-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bridone";
+  src: url("../fonts/Bridone-Book.woff2") format("woff2"),
+    url("../fonts/Bridone-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bridone";
+  src: url("../fonts/Bridone-LightItalic.woff2") format("woff2"),
+    url("../fonts/Bridone-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+img {
+  vertical-align: top;
+}
+html {
+  font-size: 18px; /* по умолчанию */
+}
+body {
+  font-family: "Marta", serif;
+  line-height: 1;
+}
+/* =================================================== */
+
+/* HOME */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+}
+.home-title {
+  font-weight: 700;
+  font-size: 44px;
+  width: 700px;
+  margin: 0 auto;
+  color: #0000ff;
+  text-shadow: 3px 3px 2px #0000ff;
+  text-transform: uppercase;
+}
+.image {
+  width: 370px;
+  margin-top: 20px;
+}
+.home-subtitle {
+  font-size: 24px;
+  margin-top: 20px;
+}
+.home-bottom {
+  text-align: left;
+  margin-top: 5px;
+}
+.menu {
+  width: 370px;
+  margin: 0 auto;
+}
+.menu-item {
+  margin-top: 5px;
+}
+.menu-item a {
+  color: #0000ff;
+}
+.home-text {
+  text-align: justify;
+  margin-top: 20px;
+  text-indent: 50px;
+  font-size: 24px;
+  color: #ff0000;
+  text-shadow: 1px 1px 3px #111;
+  text-transform: capitalize;
+}
+
+/* description */
+.description-title {
+  text-decoration: line-through;
+}
+.description-text {
+  margin: 20px 0;
+  text-align: left;
+  text-indent: 30px;
+  line-height: 30px;
+}
+.description-fact {
+  text-align: left;
+  padding: 30px 170px 40px;
+  font-family: "Bridone", serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  background-color: greenyellow;
+  letter-spacing: 7px;
+}
+.description-fact span {
+  font-weight: 700;
+  font-style: normal;
+  text-shadow: 1px 2px 3px #ff0000;
+}
+
+/* view */
+.view-title {
+  text-decoration: underline;
+}
+.view {
+  text-align: center;
+}
+.view div p {
+  width: 800px;
+}
+.view-card {
+  margin-top: 20px;
+}
+.view-image {
+  margin: 0;
+}
+.view-info {
+  margin-top: 20px;
+}
+.view-text {
+  margin: auto;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+  word-spacing: 10px;
+}
+
+/* habitation */
+.habitation-title {
+  text-decoration: overline;
+}
+.habitation-info {
+  margin-top: 20px;
+  padding: 30px 170px 40px;
+  font-family: "Bridone", serif;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+  color: #ff0000;
+  background-color: greenyellow;
+  word-spacing: 15px;
+  text-shadow: 1px 2px 3px #412f2f;
+  text-decoration: underline;
+  text-transform: lowercase;
+}
+
+/* food */
+.food-title {
+  text-decoration: overline;
+}
+.food-info {
+  margin-top: 20px;
+  text-align: left;
+}
+.food-text {
+  margin-top: 20px;
+  text-indent: 50px;
+  font-weight: 700;
+  text-align: justify;
+  font-size: 20px;
+  word-spacing: 15px;
+  line-height: 25px;
+  text-shadow: -1px -1px 1px #000;
+  color: #00ffff;
+}
+.food-text span {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* lifestyle */
+.lifestyle-title {
+  text-decoration: overline;
+}
+.lifestyle-info {
+  margin-top: 20px;
+  text-align: left;
+}
+.lifestyle-text {
+  margin-top: 20px;
+  text-indent: 50px;
+  text-align: justify;
+  font-size: 20px;
+  word-spacing: 15px;
+  line-height: 50px;
+  color: #9682ee;
+  text-shadow: -1px 1px 2px #000;
+}
+.lifestyle-text span {
+  text-decoration: line-through;
+}
+span.spanstyle {
+  text-decoration: underline;
+  text-transform: capitalize;
+}
